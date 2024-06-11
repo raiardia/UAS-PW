@@ -59,5 +59,70 @@
             <h3>Era Modern</h3>
             <p>Di era modern, peran anjing semakin luas dan bervariasi. Anjing tidak hanya sebagai hewan peliharaan, tetapi juga berperan sebagai anjing layanan (service dogs), anjing terapi, dan anjing polisi atau militer. Penelitian genetika modern telah mengungkap lebih banyak tentang hubungan evolusi antara anjing dan serigala, serta variasi genetik di antara berbagai ras anjing.</p>
             
+            <!-- SIDEBAR -->
+          </div> 
+          <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
+            <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/ANJING1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single2.php">Mengenali Macam Ras-Ras Unik dan Langka</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> September 24, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/ANJING2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single3.php">Peran Penting Anjing dalam Kehidupan Manusia</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> January 12, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/ANJING3.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single4.php">Memahami Sahabat Berbulu: Panduan Bahasa Tubuh Anjing</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> December 31, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/ANJING4.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single5.php">Membuka Hati dan Rumah: Adopsi dan Penyelamatan Anjing</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Juny 12, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/ANJING5.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single6.php">Kisah Inspiratif: Hubungan Luar Biasa Manusia dan Anjing</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> August 28, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
 </body>
 </html>
