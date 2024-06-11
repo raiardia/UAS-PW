@@ -37,5 +37,27 @@
         </div>
       </div>
     </section>
+
+    <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+          	<p>
+              <img src="images/image_1.jpg" alt="" class="img-fluid">
+            </p>
+            <p>Anjing, yang kita kenal sebagai sahabat setia manusia, memiliki sejarah yang panjang dan kaya, berkelindan dengan perkembangan peradaban manusia itu sendiri. Mari kita telusuri perjalanan evolusi dan domestikasi anjing dari serigala liar hingga menjadi teman akrab di rumah kita.</p>
+            <h3>Masa Prasejarah</h3>
+            <p>Perjalanan anjing sebagai sahabat manusia dimulai ribuan tahun lalu. Bukti genetik menunjukkan bahwa anjing didomestikasi dari serigala abu-abu (Canis lupus) antara 15.000 hingga 40.000 tahun yang lalu di Eurasia. Penemuan fosil anjing tertua yang berusia sekitar 14.000 tahun di berbagai lokasi di Eropa, Asia, dan Amerika Utara menandakan pentingnya anjing dalam kehidupan manusia sejak zaman prasejarah.</p>
+            <h3>Masa Awal Pertanian</h3>
+            <p>Sekitar 10.000 tahun yang lalu, dengan munculnya era pertanian, anjing mulai memainkan peran lebih spesifik seperti membantu berburu, menjaga ternak, dan sebagai pendamping. Bukti arkeologis menunjukkan keberadaan anjing di pemukiman manusia Neolitikum, memperlihatkan betapa pentingnya anjing dalam kehidupan masyarakat awal.</p>
+            <h3>Peradaban Awal</h3>
+            <p>Dalam peradaban Mesir Kuno, anjing dianggap sebagai hewan suci dan sering dikaitkan dengan dewa Anubis, dewa kematian dan pemakaman. Sementara itu, di Mesopotamia, anjing dianggap sebagai pelindung dan penjaga rumah, memperlihatkan betapa luasnya peran anjing dalam berbagai budaya.</p>
+            <h3>Abad Pertengahan dan Renaisans</h3>
+            <p>Di Eropa abad pertengahan, anjing mulai dikembangkan dalam berbagai ras untuk tugas tertentu seperti berburu, penggembalaan, dan penjagaan. Karya seni dari periode ini sering menampilkan anjing sebagai simbol kesetiaan dan keberanian. Seiring waktu, anjing menjadi bagian tak terpisahkan dari kehidupan manusia, baik sebagai pekerja maupun sahabat.</p>
+            <h3>Abad ke-19 hingga ke-20</h3>
+            <p>Dengan perkembangan ilmu genetika, pembiakan anjing menjadi lebih sistematis dan terstruktur. Klub kennel dan standar breed mulai bermunculan, mengelompokkan ras anjing berdasarkan fungsi, penampilan, dan temperamen. Misalnya, terrier, herder, dan anjing mainan (toy dogs) adalah beberapa kategori yang dikembangkan untuk memenuhi kebutuhan manusia yang beragam.</p>
+            <h3>Era Modern</h3>
+            <p>Di era modern, peran anjing semakin luas dan bervariasi. Anjing tidak hanya sebagai hewan peliharaan, tetapi juga berperan sebagai anjing layanan (service dogs), anjing terapi, dan anjing polisi atau militer. Penelitian genetika modern telah mengungkap lebih banyak tentang hubungan evolusi antara anjing dan serigala, serta variasi genetik di antara berbagai ras anjing.</p>
+            
 </body>
 </html>
