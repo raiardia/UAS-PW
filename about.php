@@ -238,7 +238,7 @@
     	</div>
     </section>
 <!-- END ABOUT US PAGE -->
-
+<?php include "layout/footer" ?>
 
 </body>
 </html>
