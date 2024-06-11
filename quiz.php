@@ -36,6 +36,54 @@
         </div>
       </div>
     </section>
+
+    <?php
+$conn = include "koneksi.php";
+
+if (!$conn instanceof mysqli) {
+    die("Failed to connect to the database.");
+}
+
+try {
+    $sql = "SELECT * FROM pertanyaan ORDER BY RAND() LIMIT 50";
+    $result = $conn->query($sql);
+
+    if ($result && $result->num_rows > 0) {
+        echo '<ol>';
+        while ($pertanyaan = $result->fetch_assoc()) {
+            echo '<li>';
+            echo htmlentities($pertanyaan['deskripsi']);
+
+            $sql2 = "SELECT * FROM jawaban WHERE id_pertanyaan = ?";
+            $stmt2 = $conn->prepare($sql2);
+            $stmt2->bind_param("i", $pertanyaan['id']);
+            $stmt2->execute();
+            $result2 = $stmt2->get_result();
+
+            if ($result2 && $result2->num_rows > 0) {
+                echo '<ol type="A">';
+                while ($jawaban = $result2->fetch_assoc()) {
+                    echo '<li>';
+                    echo '<input type="radio" name="jawaban[' . $pertanyaan['id'] . ']" value="' . $jawaban['id'] . '"/> ';
+                    echo htmlentities($jawaban['deskripsi']);
+                    echo '</li>';
+                }
+                echo '</ol>';
+            } else {
+                echo "No answers found for question.";
+            }
+
+            echo '</li>';
+        }
+        echo '</ol>';
+    } else {
+        echo "No questions found.";
+    }
+} catch (Exception $e) {
+    echo "Failed to fetch questions. Error: " . htmlentities($e->getMessage());
+}
+?>
+
     
 </body>
 </html>
