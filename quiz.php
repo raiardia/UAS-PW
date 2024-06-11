@@ -84,6 +84,7 @@ try {
 }
 ?>
 
+<?php include "layout/footer" ?>
     
 </body>
 </html>
