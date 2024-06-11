@@ -83,5 +83,52 @@
     	</div>
     </section>
 
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container">
+				<div class="row">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="50">0</strong>
+              </div>
+              <div class="text">
+              	<span>Dog Trainer</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="200">0</strong>
+              </div>
+              <div class="text">
+              	<span>Community Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="13">0</strong>
+              </div>
+              <div class="text">
+              	<span>Region</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="6">0</strong>
+              </div>
+              <div class="text">
+              	<span>Partner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
 </body>
 </html>
