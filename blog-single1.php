@@ -124,5 +124,7 @@
         </div>
       </div>
     </section>
+
+    <?php include "layout/footer" ?>
 </body>
 </html>
