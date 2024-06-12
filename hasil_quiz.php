@@ -38,6 +38,69 @@
       </div>
 </section>
 
+ <?php
+    // Include database connection
+    $pdo = include "koneksi.php";
+
+    // Check if form is submitted
+    if (!empty($_POST['jawaban'])) {
+        try {
+            // Initialize HTML for displaying results
+            $html = '<ol>';
+            $totalSkor = 0;
+
+            // Loop through submitted answers
+            foreach ($_POST['jawaban'] as $idPertanyaan => $idJawaban) {
+                // Query to fetch question
+                $query = $pdo->prepare("SELECT * FROM pertanyaan WHERE id = :id");
+                $query->execute(array("id" => $idPertanyaan));
+                $pertanyaan = $query->fetch();
+
+                $html .= '<li>';
+                $html .= htmlentities($pertanyaan['deskripsi']);
+
+                // Query to fetch submitted answer
+                $query2 = $pdo->prepare("SELECT * FROM jawaban WHERE id = :id AND id_pertanyaan = :id_pertanyaan");
+                $query2->execute(array(
+                    'id' => $idJawaban,
+                    'id_pertanyaan' => $idPertanyaan
+                ));
+                $jawaban = $query2->fetch();
+
+                if (!$jawaban) {
+                    $html .= '<p style="color:red">Salah</p>';
+                } else {
+                    $html .= '<p>Jawaban: '. $jawaban['deskripsi'].'</p>';
+                    if ($jawaban['benar'] == 1) {
+                        $html .= '<p style="color:green">Benar</p>';
+                        $totalSkor += $pertanyaan['skor'];
+                    } else {
+                        $html .= '<p style="color:red">Salah</p>';
+                    }
+                }
+
+                $html .= '</li>';
+            }
+
+            $html .= '</ol>';
+
+            // Display total score
+            echo '<h1>Selamat Skor Anda: '.$totalSkor.'</h1>';
+
+            // Display detailed answers
+            echo '<h2>Detail Hasil Anda</h2>';
+            echo $html;
+
+        } catch (Exception $e) {
+            echo "Gagal menampilkan hasil. ";
+            echo "Error: " . htmlentities($e->getMessage());
+        }
+    } else {
+        echo "<p>Belum ada jawaban yang dikirimkan.</p>";
+    }
+    ?>
+	<?php include "layout/footer" ?>
+
 
     
 </body>
